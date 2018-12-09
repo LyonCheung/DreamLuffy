@@ -1,0 +1,160 @@
+var tab1 = document.getElementById('menu-dynamic'),
+    tab2 = document.getElementById('menu-recommend'),
+    tab3 = document.getElementById('menu-talk'),
+    tab4 = document.getElementById('menu-music'),
+    tab5 = document.getElementById('menu-message'),
+    tab6 = document.getElementById('menu-link'),
+    tab7 = document.getElementById('menu-map'),
+    tab8 = document.getElementById('menu-about'),
+    c1 = document.getElementById('content-dynamic'),
+    c2 = document.getElementById('content-recommend'),
+    c3 = document.getElementById('content-talk'),
+    c4 = document.getElementById('content-music'),
+    c5 = document.getElementById('content-message'),
+    c6 = document.getElementById('content-link'),
+    c7 = document.getElementById('content-map'),
+    c8 = document.getElementById('content-about');
+function changeTab1() {
+    tab1.className = 'current-main-menu-item';
+    tab2.className = '';
+    tab3.className = '';
+    tab4.className = '';
+    tab5.className = '';
+    tab6.className = '';
+    tab7.className = '';
+    tab8.className = '';
+    c1.className = 'current-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab2() {
+    tab1.className = '';
+    tab2.className = 'current-main-menu-item';
+    tab3.className = '';
+    tab4.className = '';
+    tab5.className = '';
+    tab6.className = '';
+    tab7.className = '';
+    tab8.className = '';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'current-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab3() {
+    tab1.className = '';
+    tab2.className = '';
+    tab3.className = 'current-main-menu-item';
+    tab4.className = '';
+    tab5.className = '';
+    tab6.className = '';
+    tab7.className = '';
+    tab8.className = '';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'current-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab4() {
+    tab1.className = '';
+    tab2.className = '';
+    tab3.className = '';
+    tab4.className = 'current-main-menu-item';
+    tab5.className = '';
+    tab6.className = '';
+    tab7.className = '';
+    tab8.className = '';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'current-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab5() {
+    tab1.className = '';
+    tab2.className = '';
+    tab3.className = '';
+    tab4.className = '';
+    tab5.className = 'current-main-menu-item';
+    tab6.className = '';
+    tab7.className = '';
+    tab8.className = '';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'current-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab6() {
+    tab1.className = '';
+    tab2.className = '';
+    tab3.className = '';
+    tab4.className = '';
+    tab5.className = '';
+    tab6.className = 'current-main-menu-item';
+    tab7.className = '';
+    tab8.className = '';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'current-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab7() {
+    tab1.className = '';
+    tab2.className = '';
+    tab3.className = '';
+    tab4.className = '';
+    tab5.className = '';
+    tab6.className = '';
+    tab7.className = 'current-main-menu-item';
+    tab8.className = '';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'current-main-content';
+    c8.className = 'nocurrent-main-content';
+}
+function changeTab8() {
+    tab1.className = '';
+    tab2.className = '';
+    tab3.className = '';
+    tab4.className = '';
+    tab5.className = '';
+    tab6.className = '';
+    tab7.className = '';
+    tab8.className = 'current-main-menu-item';
+    c1.className = 'nocurrent-main-content';
+    c2.className = 'nocurrent-main-content';
+    c3.className = 'nocurrent-main-content';
+    c4.className = 'nocurrent-main-content';
+    c5.className = 'nocurrent-main-content';
+    c6.className = 'nocurrent-main-content';
+    c7.className = 'nocurrent-main-content';
+    c8.className = 'current-main-content';
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/dreamluffy/js/layer/layer.js"></script>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/dreamluffy/images/head/favicon.ico" />
+    <link rel="bookmark"href="/dreamluffy/images/head/favicon.ico" />
+    <title>计科 | D.Luffy</title>
+    <link rel="stylesheet" href="/dreamluffy/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/dreamluffy/css/reset.css">
+    <link rel="stylesheet" href="/dreamluffy/css/header.css">
+    <link rel="stylesheet" href="/dreamluffy/css/father.css">
+</head>
+<body>
+<div class="header">
+    <div class="header-content">
+        <div class="header-logo">
+            <a href=""></a>
+        </div>
+        <div class="header-menu">
+            <ul>
+                <li class="">
+                    <a href="/dreamluffy/index.html">首页</a>
+                </li>
+                <li onmousemove="subMenu1()" onmouseout="nosubMenu1()">
+                    <a class="current-header-menu-item" href="/dreamluffy/cs.html">计科</a>
+                    <ul id="header-submenu-cs" class="nocurrent-sub-menu">
+                        <li onmousemove="subMenu1()" onmouseout="nosubMenu1()"><a href="">编程</a></li>
+                        <li onmousemove="subMenu1()" onmouseout="nosubMenu1()"><a href="">数据库</a></li>
+                        <li onmousemove="subMenu1()" onmouseout="nosubMenu1()"><a href="">计算机基础</a></li>
+                    </ul>
+                </li>
+                <li onmousemove="subMenu2()" onmouseout="nosubMenu2()">
+                    <a href="/dreamluffy/math.html">数学</a>
+                    <ul id="header-submenu-math" class="nocurrent-sub-menu">
+                        <li onmousemove="subMenu2()" onmouseout="nosubMenu2()"><a href="">高等数学</a></li>
+                        <li onmousemove="subMenu2()" onmouseout="nosubMenu2()"><a href="">线性代数</a></li>
+                        <li onmousemove="subMenu2()" onmouseout="nosubMenu2()"><a href="">概率统计</a></li>
+                        <li onmousemove="subMenu2()" onmouseout="nosubMenu2()"><a href="">数学建模</a></li>
+                    </ul>
+                </li>
+                <li onmousemove="subMenu3()" onmouseout="nosubMenu3()">
+                    <a href="/dreamluffy/habit.html">爱好</a>
+                    <ul id="header-submenu-habit" class="nocurrent-sub-menu">
+                        <li onmousemove="subMenu3()" onmouseout="nosubMenu3()"><a href="">天文</a></li>
+                        <li onmousemove="subMenu3()" onmouseout="nosubMenu3()"><a href="">地理</a></li>
+                        <li onmousemove="subMenu3()" onmouseout="nosubMenu3()"><a href="">物理</a></li>
+                        <li onmousemove="subMenu3()" onmouseout="nosubMenu3()"><a href="">历史</a></li>
+                    </ul>
+                </li>
+                <li onmousemove="subMenu4()" onmouseout="nosubMenu4()">
+                    <a href="/dreamluffy/deep.html">深度</a>
+                    <ul id="header-submenu-deep" class="nocurrent-sub-menu">
+                        <li onmousemove="subMenu4()" onmouseout="nosubMenu4()"><a href="">神经网络</a></li>
+                        <li onmousemove="subMenu4()" onmouseout="nosubMenu4()"><a href="">机器学习</a></li>
+                        <li onmousemove="subMenu4()" onmouseout="nosubMenu4()"><a href="">卷积神经网</a></li>
+                        <li onmousemove="subMenu4()" onmouseout="nosubMenu4()"><a href="">序列模型</a></li>
+                    </ul>
+                </li>
+                <li onmousemove="subMenu5()" onmouseout="nosubMenu5()">
+                    <a href="/dreamluffy/else.html">其他</a>
+                    <ul id="header-submenu-else" class="nocurrent-sub-menu">
+                        <li onmousemove="subMenu5()" onmouseout="nosubMenu5()"><a href="">阅读</a></li>
+                        <li onmousemove="subMenu5()" onmouseout="nosubMenu5()"><a href="">影评</a></li>
+                        <li onmousemove="subMenu5()" onmouseout="nosubMenu5()"><a href="">音乐</a></li>
+                        <li onmousemove="subMenu5()" onmouseout="nosubMenu5()"><a href="">相册</a></li>
+                        <li onmousemove="subMenu5()" onmouseout="nosubMenu5()"><a href="">日记</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-tool">
+            <li class="header-search">
+                <i class="fa fa-search"></i>
+            </li>
+            <li class="header-mail">E-mail</li>
+            <li class="header-qq">QQ</li>
+        </div>
+    </div>
+</div>
+<div class="father">
+    <div class="father-top">
+        <div class="father-top1-background"></div>
+        <div class="father-top-info">
+            <div class="father-top-info-avatar">
+                <a href="">
+                    <img src="/dreamluffy/images/father/cs.jpg">
+                </a>
+            </div>
+            <div class="father-top-info-btn">
+                <a href="" class="name">计算机科学与技术</a>
+                <span class="follow">
+                    <i class="fa fa-heartbeat"></i> 关 注</span>
+            </div>
+            <div class="father-top-info-desc">
+                <p>为方便整理，本论坛不提供发帖和回复功能，有问题请点击右边的群聊按钮，在群组里交流。</p>
+            </div>
+        </div>
+    </div>
+    <div class="father-right">
+        <div class="father-link">
+            <h3>友情链接</h3>
+            <div class="father-link-list">
+                <a href="http://www.w3school.com.cn/">W3cSchool</a>
+                <a href="https://www.cn-ki.net/">iData-知识检索</a>
+                <a href="http://principleux.com/">PrincipleUX</a>
+                <a href="http://www.runoob.com/">菜鸟教程</a>
+                <a href="https://www.bilibili.com/">哔哩哔哩</a>
+                <a href="https://www.docschina.org/">印记中文</a>
+                <a href="https://www.veer.com/">视觉ME</a>
+                <a href="http://www.luoo.net/">落网音乐</a>
+                <a href="http://www.bee-ji.com/?fr=moulem.com">逗比拯救世界</a>
+                <a href="http://www.hualvtu.com/">画旅途</a>
+                <a href="http://www.qdaily.com/">好奇心日报</a>
+            </div>
+        </div>
+    </div>
+    <div class="father-left">
+        <div class="father-son">
+            <div class="father-son-list">
+                <li>
+                    <div class="left">
+                        <a href="">
+                            <img src="/dreamluffy/images/father/cs-编程.jpg">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="name"><a href="" target="_blank">编程<span>0</span></a></div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <a href="">
+                            <img src="/dreamluffy/images/father/cs-数据库.jpg">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="name"><a href="" target="_blank">数据库<span>0</span></a></div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <a href="">
+                            <img src="/dreamluffy/images/father/cs-计算机基础.jpg">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="name"><a href="" target="_blank">计算机基础<span>0</span></a></div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="/dreamluffy/js/subMenu.js"></script>
+</html>
